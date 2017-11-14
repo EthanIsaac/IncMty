@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.itesm.eibt.incmty.AvatarEditor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center"
+            android:text="Mi Avatar"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ScrollView
+                android:layout_width="120dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/sexo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sexo" />
+
+                    <Button
+                        android:id="@+id/tono"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tono" />
+
+                    <Button
+                        android:id="@+id/ojos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ojos" />
+
+                    <Button
+                        android:id="@+id/cabello"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cabello" />
+
+                    <Button
+                        android:id="@+id/barba"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="false"
+                        android:text="Barba" />
+
+                    <Button
+                        android:id="@+id/color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Color" />
+
+                    <Button
+                        android:id="@+id/sudadera"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sudadera" />
+
+                    <Button
+                        android:id="@+id/pantalon"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pantalón" />
+
+                    <Button
+                        android:id="@+id/tenis"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tenis" />
+
+                    <Button
+                        android:id="@+id/accesorios"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Accesorios" />
+
+                </LinearLayout>
+            </ScrollView>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/avatarImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="40dp"
+                    android:src="@drawable/hombreavatar0" />
+
+                <ImageView
+                    android:id="@+id/cejasImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="40dp"
+                    app:srcCompat="@drawable/hombrecejasnegras" />
+
+                <ImageView
+                    android:id="@+id/ojosImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="40dp"
+                    app:srcCompat="@drawable/hombreojos0" />
+
+                <ImageView
+                    android:id="@+id/accesorioImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="40dp"
+                    android:src="@drawable/hombreaccesorio0" />
+
+                <ImageView
+                    android:id="@+id/cabelloImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="40dp"
+                    app:srcCompat="@drawable/hombrecabellonegro0" />
+
+                <ImageView
+                    android:id="@+id/tenisImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="40dp"
+                    app:srcCompat="@drawable/hombretenis0" />
+
+                <ImageView
+                    android:id="@+id/pantalonImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="40dp"
+                    app:srcCompat="@drawable/hombrepantalon0" />
+
+                <ImageView
+                    android:id="@+id/sudaderaImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="40dp"
+                    app:srcCompat="@drawable/hombresudadera0" />
+
+                <ImageView
+                    android:id="@+id/barbaImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="40dp"
+                    android:src="@drawable/barbanegra0" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/guardar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    app:backgroundTint="@color/colorPrimaryDark"
+                    app:srcCompat="@android:drawable/ic_menu_save" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
