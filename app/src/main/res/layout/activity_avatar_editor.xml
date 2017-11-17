@@ -26,39 +26,45 @@
 
             <ScrollView
                 android:layout_width="120dp"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:orientation="vertical">
 
                     <Button
                         android:id="@+id/sexo"
+                        style="@style/AvatarButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Sexo" />
 
                     <Button
                         android:id="@+id/tono"
+                        style="@style/AvatarButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Tono" />
 
                     <Button
                         android:id="@+id/ojos"
+                        style="@style/AvatarButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Ojos" />
 
                     <Button
                         android:id="@+id/cabello"
+                        style="@style/AvatarButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Cabello" />
 
                     <Button
                         android:id="@+id/barba"
+                        style="@style/AvatarButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="false"
@@ -66,30 +72,35 @@
 
                     <Button
                         android:id="@+id/color"
+                        style="@style/AvatarButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Color" />
 
                     <Button
                         android:id="@+id/sudadera"
+                        style="@style/AvatarButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Sudadera" />
 
                     <Button
                         android:id="@+id/pantalon"
+                        style="@style/AvatarButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Pantalón" />
 
                     <Button
                         android:id="@+id/tenis"
+                        style="@style/AvatarButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Tenis" />
 
                     <Button
                         android:id="@+id/accesorios"
+                        style="@style/AvatarButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Accesorios" />
